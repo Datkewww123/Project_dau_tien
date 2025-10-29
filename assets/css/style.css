@@ -65,6 +65,10 @@ html {
     margin-top: 16px !important;
 }
 
+.mt-32 {
+    margin-top: 32px !important;
+}
+
 #main {}
 
 .text-white {
@@ -149,20 +153,38 @@ thi no van giu cac dang chia vao */
     font-size: 14px;
 }
 
+#header .mobile-menu-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+}
+
+#header .mobile-menu-btn,
 #header .search-btn {
     float: right;
     padding: 0 21px;
     cursor: pointer;
 }
 
+#header .menu-icon,
 #header .search-icon {
     color: white;
     font-size: 20px;
     line-height: 46px;
 }
 
-#header>.search-btn:hover {
+#header .mobile-menu-btn:hover {
+    background-color: #ccc;
+}
+
+#header .mobile-menu-btn:hover .menu-icon {
+    color: black;
+}
+
+#header .search-btn:hover {
     background-color: red;
+    cursor: pointer;
 }
 
 #slider {
@@ -194,7 +216,12 @@ thi no van giu cac dang chia vao */
 
 #content .content-section {
     width: 800px;
+    max-width: 100%;
     padding: 64px 0 112px;
+    /**/
+    padding-left: 16px;
+    padding-right: 16px;
+    /* 2 dong nay la de sua loi canh le o dang ipad do margin dang am*/
     margin-left: auto;
     margin-right: auto;
 }
@@ -226,7 +253,7 @@ thi no van giu cac dang chia vao */
 }
 
 #content .member-list {
-    padding-top: 47px;
+    padding-top: 32px;
     overflow: hidden;
     /* lam cang ra day tour date xuong 
     duoi thay vi dinh sat may cai anh boi vi anh huong cua float */
@@ -286,7 +313,7 @@ thi no van giu cac dang chia vao */
 }
 
 .places-list {
-    margin-top: 32px;
+    margin-top: 16px;
 }
 
 .place-img:hover {
@@ -327,6 +354,7 @@ thi no van giu cac dang chia vao */
     padding: 11px 16px;
     display: inline-block;
     margin-top: 20px;
+    text-align: center;
 }
 
 .place-buy-btn:hover {

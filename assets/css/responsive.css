@@ -1,0 +1,86 @@
+        /* PC */
+        
+        @media(min-width: 1024px) {}
+        /* Tablet and mobile */
+        
+        @media(max-width: 1023px) {
+            /* phong to o buy ticket */
+            .btn {
+                padding: 15px 16px;
+            }
+            /* phong to 2 o de nhap la name va email */
+            .contact-form .form-control {
+                padding: 15px;
+            }
+            /* tang khoang cach giua may cai location email... */
+            .contact-info {
+                font-size: 18px;
+                line-height: 2;
+            }
+            /* phong to may cai icon social o cuoi trang */
+            .social-list {
+                font-size: 48px;
+            }
+            /* tao khoang cach may cai icon */
+            #footer .social-list a {
+                margin: 0 8px;
+            }
+            /* phong to cai link w3.css */
+            #footer .copyright a {
+                padding: 12px 0;
+                display: inline-block;
+            }
+            /*  */
+            #navigation .subnav a {
+                padding: 5px 12px;
+            }
+        }
+        /* Tablet */
+        
+        @media(min-width: 740px) and (max-width: 1023px) {}
+        /* Mobile */
+        
+        @media(max-width: 740px) {
+            .s-full-width,
+            .s-col-full {
+                width: 100% !important;
+            }
+            .s-mt-8 {
+                margin-top: 8px !important;
+            }
+            #header {
+                overflow: hidden;
+            }
+            #header .search-btn {
+                display: none;
+            }
+            #header .mobile-menu-btn {
+                display: block;
+            }
+            #navigation {
+                display: block;
+            }
+            #navigation li a {
+                padding: 1px 24px;
+            }
+            #navigation>li {
+                display: block;
+            }
+            #navigation>li:first-child {
+                display: inline-block;
+            }
+            #navigation .subnav {
+                position: initial;
+                background-color: #333;
+            }
+            #navigation .subnav a {
+                color: #fff;
+                padding: 5px 41px;
+            }
+            #content .member-avatar {
+                width: 60%;
+            }
+            .contact-form {
+                margin-top: 16px;
+            }
+        }
