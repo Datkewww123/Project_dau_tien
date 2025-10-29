@@ -69,8 +69,6 @@ html {
     margin-top: 32px !important;
 }
 
-#main {}
-
 .text-white {
     color: white !important;
 }
@@ -355,6 +353,7 @@ thi no van giu cac dang chia vao */
     display: inline-block;
     margin-top: 20px;
     text-align: center;
+    -webkit-appearance: none;
 }
 
 .place-buy-btn:hover {
